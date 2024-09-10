@@ -38,7 +38,6 @@ public class Test {
 	}
 	try {
 		i.eliminarPelicula(1); 
-		i.eliminarPelicula(2); 
 		System.out.println(i.getCatalogo().toString());
 		}catch(Exception e) {
 			System.out.println("Excepcion: " + e.getMessage());
